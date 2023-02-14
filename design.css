@@ -1,0 +1,131 @@
+    
+.navbar,.footer{ 
+     background: #B7C4CF;
+    height: 10vh;}
+
+.banner{
+    background: white;
+    height: 100vh;
+    background-image:url("art.jpg");}
+
+.card-section{
+    background: #D7C0AE;
+    height: 50vh;
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center; }
+        
+.child{
+    width: 30%; height: 40vh;
+    border: 1px solid ; }
+
+.channel{
+    width: 100%; height: 110vh;
+    background-color: #EEF2E6;
+     display: flex;}
+        
+
+.viewsection{
+    width: 80%;
+    border: 1px solid black; }
+
+.btn{
+        width: 50%;
+        height: 5vh;
+        border: 100%;}
+
+.btngp{width: 20%;
+        height: 5vh;}
+        
+        .ytbanner{
+            display: flex;
+            padding-left: 135px;
+            margin-left: 15px;}
+        
+        .img{
+            display: inline-block;
+            border: 1px solid black;
+            width: 80%;
+            height: 35vh;
+            margin-left: 105px;
+            text-align: center;
+        }
+        .video{width: 15%; height: 20vh; 
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        #vd{display: flex;
+            justify-content: space-around;
+            align-items: center;}
+        }
+        #tt{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .videoo{width: 15%; height: 20vh; 
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        #yt{display: flex;
+            justify-content: space-around;
+            align-items: center;}
+        #text{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+       .footer{
+         display: flex;
+         justify-content: space-between;
+         height: 40vh;
+       }
+        
+        .socialmedia,.contact,.map{
+            width: 30%;
+        }
+       #nav ul li {
+            float: left;
+            list-style: none; /*to remove bullet style*/
+            margin: 0 5px;
+            color: black;
+            opacity: 0.5; 
+        }
+
+#nav ul li a:hover{
+    opacity: 1;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #D7C0AE;
+    background: gray;
+}
+body{
+    margin: 0px;
+}
+#nav{
+    overflow: hidden;
+}
+
+
+.navbar{
+    width: 100%;
+    background: #B7C4CF;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: gray;
+    opacity: 1;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #D7C0AE;
+}

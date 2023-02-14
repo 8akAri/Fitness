@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    background: #B7C4CF;
+   /* background-image:url("art.jpg");*/
+    overflow: auto;
+    display: flex;
+}
+
+.navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbar a:hover {
+    background-color: gray;
+    opacity: 1;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #D7C0AE;
+}
+#logo{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+

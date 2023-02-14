@@ -1,0 +1,55 @@
+h1{color: orangered;}
+
+
+#a1{ background: lightcoral; font-size: 20px;}
+#a2{ background-color: rosybrown; }
+
+#login,#cancel{
+      width: 100px;
+      height: 40px;
+      border-radius: 25%10%;
+      border:1px solid blue;
+      background: linear-gradient(20deg, yellow,orangered);
+      justify-content: center;  
+
+    }
+    #login:hover,#cancel:hover{
+      box-shadow: 2px 3px 5px grey;
+      background: linear-gradient(20deg, orange,yellow);   
+    }
+
+
+div.form-container{
+  border: lpx solid yellow;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+h1{
+  text-align: center;
+}
+.form-container label{
+  width: 30%;
+/*  border: 1px solid white;*/
+  display: block;
+  float: left;
+}
+.form-container form{
+  width: 50%;
+}
+
+input[type='text']{
+  border:1px solid orange;
+}
+input[type='email']{
+  border:1px solid orange;
+}
+input[type='password']{
+  border:1px solid orange;
+}
+
+input[type='checkbox'], input[type='radio']{
+  accent-color:orange;
+}
